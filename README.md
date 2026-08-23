@@ -1,4 +1,8 @@
-# FLARE — Adversarial Cross-Examination (ACE)
+# FLARE — Foundation-model Labelling via Adversarial Review & Escalation
+
+An evolution of BLAIR (Behavior Labelling AI for Research): the original
+active-learning/retraining loop is replaced by multi-LLM adversarial debate
+with escalation to a human labeller.
 
 Two notebooks, one mechanism: two independent LLMs (Claude, GPT) each give an
 independent verdict, then adversarially cross-examine each other's reasoning
