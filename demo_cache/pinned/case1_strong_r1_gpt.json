@@ -1,0 +1,5 @@
+{
+  "verdict": "meets_criteria",
+  "evidence": "\u201cLLMs are trained to predict the most probable next token given the preceding context, not to verify claims against a ground-truth knowledge base. Because fluency and factual grounding are not the same objective\u2026\u201d and \u201cretrieval-augmented generation\u2026retrieves relevant documents at inference time and conditions the answer on that retrieved evidence\u201d",
+  "reasoning": "The answer correctly explains the mechanism behind hallucination: LLMs optimize next-token prediction rather than verified factual accuracy, so fluent and confident text can still be false. It also provides a concrete mitigation, retrieval-augmented generation, and explains how it helps by grounding the model\u2019s answer in retrieved, checkable documents rather than relying only on internal model recall. This demonstrates genuine mechanistic understanding and satisfies both rubric requirements."
+}
