@@ -1,5 +1,0 @@
-{
-  "verdict": "partially_meets",
-  "evidence": "\u201cHallucination happens because language models sometimes generate incorrect information due to the probabilistic nature of how they work\u2026 use RAG, which helps reduce hallucinations by grounding the model.\u201d",
-  "reasoning": "The answer uses relevant vocabulary and gives a broadly correct but shallow mechanism: it notes that LLMs are probabilistic, but it does not clearly explain that they predict likely next tokens rather than verify facts, nor does it distinguish fluent/confident wording from factual correctness. The mitigation also names a valid strategy, RAG, and says it grounds the model, but it does not explain how retrieval of external documents constrains or verifies the answer. Therefore, it shows some understanding but not enough mechanistic detail to fully meet the rubric."
-}

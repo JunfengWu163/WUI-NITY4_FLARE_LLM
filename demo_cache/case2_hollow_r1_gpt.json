@@ -1,0 +1,5 @@
+{
+  "verdict": "partially_meets",
+  "evidence": "\u201cHallucination happens because language models sometimes generate incorrect information due to the probabilistic nature of how they work\u2026 A good way to mitigate hallucination is to use RAG, which helps reduce hallucinations by grounding the model.\u201d",
+  "reasoning": "The answer gestures at the correct mechanism by mentioning the probabilistic nature of language models, but it does not clearly explain that LLMs optimize next-token prediction rather than verified factual accuracy, nor does it distinguish fluent/confident phrasing from truth. It also names RAG and says it grounds the model, but does not explain concretely that RAG retrieves external documents and conditions the answer on them to reduce unsupported generation. Therefore, it uses relevant terminology but does not demonstrate the full mechanistic understanding required by the rubric."
+}
